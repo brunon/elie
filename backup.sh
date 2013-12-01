@@ -10,5 +10,5 @@ bye
 END
 
 git add -A .
-git commit -m "Backup elie.codeparlesjeunes.ca $(date '+%Y/%m/%d %H:%M')"
+git commit -m "Backup on $(date '+%Y/%m/%d %H:%M')"
 git push origin master
