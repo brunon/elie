@@ -3,7 +3,7 @@
 cd $(dirname $0)/web
 rm -f *
 
-ftp elie.codeparlesjeunes.ca <<END
+ftp elie.codeparlesjeunes.ca >/dev/null <<END
 prompt
 mget *
 bye
