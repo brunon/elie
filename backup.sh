@@ -10,5 +10,5 @@ bye
 END
 
 git add -A .
-git commit -m "Backup on $(date '+%Y/%m/%d %H:%M')"
-git push origin master
+git commit -q -m "Backup on $(date '+%Y/%m/%d %H:%M')"
+git push -q origin master
